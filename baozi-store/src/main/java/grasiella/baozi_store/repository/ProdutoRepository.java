@@ -1,0 +1,8 @@
+package grasiella.baozi_store.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import grasiella.baozi_store.model.Produto;
+
+public interface ProdutoRepository extends JpaRepository<Produto, Long> {
+
+}
